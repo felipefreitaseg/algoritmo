@@ -1,0 +1,20 @@
+1-Validar a conta
+    1.1-Se for:
+        1.1.1-Pedir a senha 4 digitos (0 TENTATIVAS).
+            1.1.1.1-Enquanto tentativas forem menores do que 3:
+                1.1.1.1.1-Se a senha for valida, avançar.
+                    1.1.1.1.1.1-Solicitar ao usuário o valor de saque.
+                        1.1.1.1.1.1.1-Se saque for menor ou igual a saldo e e saque está dentro do limite de saque:
+                            1.1.1.1.1.1.1.1-Aprovar Saque.
+                        1.1.1.1.1.1.2-Se não, retornar ao passo 1.1.1.1.1.1.
+                1.1.1.1.2-Se não, o programa voltará ao passo 1.1.1 e somar +1 a TENTATIVAS.
+            1.1.1.2- Bloquear Conta.
+    1.2-Se não: Encerrar a operação.
+
+Procurar uma carta numa pilha
+
+1-independente do baralho que você esteja em mão, arrume o baralho de forma com que TODAS AS CARTAS estejam com sua face informativa visivel virada para cima.
+2-coloque as cartas numa superficie plana e espalhe as cartas ainda viradas pra cima de forma com que todas elas estejam visiveis.
+3-utilizando da sua visão periférica, busque as cartas que possua as mesmas cores que voce está procurando e deixe as cartas que não atendem esse padrão em um lugar separado.
+4-agora, dentro do grupo de cartas que vc separou, busque as cartas que possuam as mesmas figuras/simbúlos que voce procura e deixe as cartas que não atendem a esse padrão no mesmo lugar do passo 3.
+5-deixem as cartas proximas, porém de maneira que a face das mesmas esteja visivel e procure a carta desejada.
